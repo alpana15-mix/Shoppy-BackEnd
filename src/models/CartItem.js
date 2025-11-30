@@ -1,3 +1,4 @@
+//-----------This model stores items added to a user's cart
 const mongoose = require('mongoose');
 
 const cartItemSchema = new mongoose.Schema({

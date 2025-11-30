@@ -1,3 +1,5 @@
+// This schema stores all user-related data such as name, email, password.
+// This model is used for authentication(register + login).
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
